@@ -13,9 +13,6 @@ jobs:
       OIDC_AUDIENCE: 'jfrog-github'
       OIDC_PROVIDER: 'marwa-oidc'
       PLATFORM_REPO: 'eks-npm-npm'
-     defaults:
-      run:
-        working-directory: ./package
      steps:
        - name: Checkout
          uses: actions/checkout@v3
